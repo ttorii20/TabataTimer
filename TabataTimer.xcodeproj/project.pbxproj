@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1F122ECF2A92F9F511A096 /* Pods_TabataTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137F24FA6CCF5BDDE7D96F8D /* Pods_TabataTimerTests.framework */; };
+		BD6A8AB7DBFC9434CE7F722E /* Pods_TabataTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5633F2B3F83B6E126D2C7442 /* Pods_TabataTimer.framework */; };
+		C9D643645541F31AFD283A9A /* Pods_TabataTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C15C3BECADB0A5368C3564 /* Pods_TabataTimerUITests.framework */; };
 		CC2DF5421DB22D0F005FDB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DF5411DB22D0F005FDB59 /* AppDelegate.swift */; };
 		CC2DF5441DB22D0F005FDB59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DF5431DB22D0F005FDB59 /* ViewController.swift */; };
 		CC2DF5471DB22D0F005FDB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2DF5451DB22D0F005FDB59 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 		CC2DF54F1DB22D0F005FDB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2DF54D1DB22D0F005FDB59 /* LaunchScreen.storyboard */; };
 		CC2DF55A1DB22D0F005FDB59 /* TabataTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DF5591DB22D0F005FDB59 /* TabataTimerTests.swift */; };
 		CC2DF5651DB22D10005FDB59 /* TabataTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2DF5641DB22D10005FDB59 /* TabataTimerUITests.swift */; };
+		CC3EF0621DB65DCB003BC129 /* ufonts.com_impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC3EF0611DB65CBC003BC129 /* ufonts.com_impact.ttf */; };
+		CC47FA531DCEB23C00682121 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC47FA521DCEB23C00682121 /* GoogleService-Info.plist */; };
+		CC96000D1DB37FF600994419 /* Countdown03-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC96000C1DB37FF600994419 /* Countdown03-3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5915B08B0E587B83183AA9 /* Pods-TabataTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		137F24FA6CCF5BDDE7D96F8D /* Pods_TabataTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabataTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B215BA0703C4E6E67284ED2 /* Pods-TabataTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimerUITests/Pods-TabataTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2245769FE4F62E3FDD21511B /* Pods-TabataTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FFFC039DBB9189883093A45 /* Pods-TabataTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer.release.xcconfig"; sourceTree = "<group>"; };
+		5633F2B3F83B6E126D2C7442 /* Pods_TabataTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabataTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C15C3BECADB0A5368C3564 /* Pods_TabataTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabataTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817C4BF84D3301C2E8099B8E /* Pods-TabataTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimerUITests/Pods-TabataTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1ECF07379E277ACE41C2D9 /* Pods-TabataTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC2DF53E1DB22D0F005FDB59 /* TabataTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabataTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2DF5411DB22D0F005FDB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC2DF5431DB22D0F005FDB59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,12 @@
 		CC2DF5601DB22D10005FDB59 /* TabataTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2DF5641DB22D10005FDB59 /* TabataTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataTimerUITests.swift; sourceTree = "<group>"; };
 		CC2DF5661DB22D10005FDB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3EF05C1DB64DCF003BC129 /* TabataTimer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabataTimer-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC3EF05F1DB65949003BC129 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		CC3EF0601DB65949003BC129 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CC3EF0611DB65CBC003BC129 /* ufonts.com_impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ufonts.com_impact.ttf; sourceTree = "<group>"; };
+		CC47FA521DCEB23C00682121 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC96000C1DB37FF600994419 /* Countdown03-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Countdown03-3.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6A8AB7DBFC9434CE7F722E /* Pods_TabataTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1F122ECF2A92F9F511A096 /* Pods_TabataTimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D643645541F31AFD283A9A /* Pods_TabataTimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81FE200FB3062A07901A0607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E5915B08B0E587B83183AA9 /* Pods-TabataTimer.debug.xcconfig */,
+				3FFFC039DBB9189883093A45 /* Pods-TabataTimer.release.xcconfig */,
+				AA1ECF07379E277ACE41C2D9 /* Pods-TabataTimerTests.debug.xcconfig */,
+				2245769FE4F62E3FDD21511B /* Pods-TabataTimerTests.release.xcconfig */,
+				817C4BF84D3301C2E8099B8E /* Pods-TabataTimerUITests.debug.xcconfig */,
+				1B215BA0703C4E6E67284ED2 /* Pods-TabataTimerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21E851ADF55A2DDCD7A0660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5633F2B3F83B6E126D2C7442 /* Pods_TabataTimer.framework */,
+				137F24FA6CCF5BDDE7D96F8D /* Pods_TabataTimerTests.framework */,
+				64C15C3BECADB0A5368C3564 /* Pods_TabataTimerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC2DF5351DB22D0F005FDB59 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +130,8 @@
 				CC2DF5581DB22D0F005FDB59 /* TabataTimerTests */,
 				CC2DF5631DB22D10005FDB59 /* TabataTimerUITests */,
 				CC2DF53F1DB22D0F005FDB59 /* Products */,
+				81FE200FB3062A07901A0607 /* Pods */,
+				A21E851ADF55A2DDCD7A0660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +150,15 @@
 			children = (
 				CC2DF5411DB22D0F005FDB59 /* AppDelegate.swift */,
 				CC2DF5431DB22D0F005FDB59 /* ViewController.swift */,
+				CC47FA521DCEB23C00682121 /* GoogleService-Info.plist */,
+				CC3EF05C1DB64DCF003BC129 /* TabataTimer-Bridging-Header.h */,
 				CC2DF5451DB22D0F005FDB59 /* Main.storyboard */,
 				CC2DF54B1DB22D0F005FDB59 /* Assets.xcassets */,
 				CC2DF54D1DB22D0F005FDB59 /* LaunchScreen.storyboard */,
 				CC2DF5501DB22D0F005FDB59 /* Info.plist */,
+				CC3EF0611DB65CBC003BC129 /* ufonts.com_impact.ttf */,
 				CC2DF5481DB22D0F005FDB59 /* TabataTimer.xcdatamodeld */,
+				CC96000C1DB37FF600994419 /* Countdown03-3.mp3 */,
 			);
 			path = TabataTimer;
 			sourceTree = "<group>";
@@ -135,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC2DF5691DB22D10005FDB59 /* Build configuration list for PBXNativeTarget "TabataTimer" */;
 			buildPhases = (
+				F414804732AABE48CCE89291 /* [CP] Check Pods Manifest.lock */,
 				CC2DF53A1DB22D0F005FDB59 /* Sources */,
 				CC2DF53B1DB22D0F005FDB59 /* Frameworks */,
 				CC2DF53C1DB22D0F005FDB59 /* Resources */,
+				EC0BDDCDDAD2658A21E5CDB8 /* [CP] Embed Pods Frameworks */,
+				DE73E5C0442DA97F038F6BB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC2DF56C1DB22D10005FDB59 /* Build configuration list for PBXNativeTarget "TabataTimerTests" */;
 			buildPhases = (
+				A086A261302D824F39F18408 /* [CP] Check Pods Manifest.lock */,
 				CC2DF5511DB22D0F005FDB59 /* Sources */,
 				CC2DF5521DB22D0F005FDB59 /* Frameworks */,
 				CC2DF5531DB22D0F005FDB59 /* Resources */,
+				3AE099EC7963F09D77FF405C /* [CP] Embed Pods Frameworks */,
+				A6A67227CEC5505123F12AFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC2DF56F1DB22D10005FDB59 /* Build configuration list for PBXNativeTarget "TabataTimerUITests" */;
 			buildPhases = (
+				E1A5079E22C4631915F55A53 /* [CP] Check Pods Manifest.lock */,
 				CC2DF55C1DB22D10005FDB59 /* Sources */,
 				CC2DF55D1DB22D10005FDB59 /* Frameworks */,
 				CC2DF55E1DB22D10005FDB59 /* Resources */,
+				61FD4C419A0798F9E8ECD6DD /* [CP] Embed Pods Frameworks */,
+				3C11D65220855C1D7CDF11C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3EF0621DB65DCB003BC129 /* ufonts.com_impact.ttf in Resources */,
 				CC2DF54F1DB22D0F005FDB59 /* LaunchScreen.storyboard in Resources */,
 				CC2DF54C1DB22D0F005FDB59 /* Assets.xcassets in Resources */,
 				CC2DF5471DB22D0F005FDB59 /* Main.storyboard in Resources */,
+				CC96000D1DB37FF600994419 /* Countdown03-3.mp3 in Resources */,
+				CC47FA531DCEB23C00682121 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +324,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE099EC7963F09D77FF405C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C11D65220855C1D7CDF11C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimerUITests/Pods-TabataTimerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FD4C419A0798F9E8ECD6DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimerUITests/Pods-TabataTimerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A086A261302D824F39F18408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6A67227CEC5505123F12AFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE73E5C0442DA97F038F6BB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A5079E22C4631915F55A53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0BDDCDDAD2658A21E5CDB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F414804732AABE48CCE89291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC2DF53A1DB22D0F005FDB59 /* Sources */ = {
@@ -307,6 +510,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CC2DF5461DB22D0F005FDB59 /* Base */,
+				CC3EF05F1DB65949003BC129 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -315,6 +519,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CC2DF54E1DB22D0F005FDB59 /* Base */,
+				CC3EF0601DB65949003BC129 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -326,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -376,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -417,32 +624,41 @@
 		};
 		CC2DF56A1DB22D10005FDB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5915B08B0E587B83183AA9 /* Pods-TabataTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DJMA973CXQ;
 				INFOPLIST_FILE = TabataTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.TabataTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = TabataTimer.taka.inc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TabataTimer/TabataTimer-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CC2DF56B1DB22D10005FDB59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFFC039DBB9189883093A45 /* Pods-TabataTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DJMA973CXQ;
 				INFOPLIST_FILE = TabataTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = taka.inc.TabataTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = TabataTimer.taka.inc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TabataTimer/TabataTimer-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CC2DF56D1DB22D10005FDB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1ECF07379E277ACE41C2D9 /* Pods-TabataTimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +674,7 @@
 		};
 		CC2DF56E1DB22D10005FDB59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2245769FE4F62E3FDD21511B /* Pods-TabataTimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +690,7 @@
 		};
 		CC2DF5701DB22D10005FDB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817C4BF84D3301C2E8099B8E /* Pods-TabataTimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DJMA973CXQ;
@@ -487,6 +705,7 @@
 		};
 		CC2DF5711DB22D10005FDB59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B215BA0703C4E6E67284ED2 /* Pods-TabataTimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DJMA973CXQ;
@@ -518,6 +737,7 @@
 				CC2DF56B1DB22D10005FDB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2DF56C1DB22D10005FDB59 /* Build configuration list for PBXNativeTarget "TabataTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +746,7 @@
 				CC2DF56E1DB22D10005FDB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2DF56F1DB22D10005FDB59 /* Build configuration list for PBXNativeTarget "TabataTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +755,7 @@
 				CC2DF5711DB22D10005FDB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

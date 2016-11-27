@@ -1,0 +1,1686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BFBA3D20736EC2B1822B8EE35E9EB5 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5C770FDE36DB2E76480BB230A6666 /* AutoTextView.swift */; };
+		0655C3E7FCE02C35F819251044317D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		083A139A0FECB333157CF974100ED766 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8125CA3CF124952FFB002CB5BBBA3E7 /* SpringButton.swift */; };
+		0B206F48E9DBCC938A4F3F1D529292F6 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3092B2DBF3C22BAEDD8313C992958C29 /* SpringImageView.swift */; };
+		1075857F910A0D9F479A283575F3C1BC /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5B589EB3023E9D82CE1C79796C4909 /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13C3463D8785C8EA53AD1798CB780D0C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0BD0BAFD1B318623699BC2A1B39C8 /* BlurView.swift */; };
+		1ED2FEF8FB857BE42AC2CA2C7A43700A /* Pods-TabataTimerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3474EC0D690EA3B16B91B94ACAD8 /* Pods-TabataTimerTests-dummy.m */; };
+		2377E523395CB5EC94D91283344580A1 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3451A3A5A51D88FAC91F5040F58C6B6D /* GoogleToolboxForMac-dummy.m */; };
+		2B95200755F4983D22E37C984284F956 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C112BD8E2A84F0C340329C8D35375EB /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB298DAAA66B239E79A77582A242D61 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B39E70073837F7FB371467BB1B550 /* example.png */; };
+		2CB463C750E7530FDF5E47E3B0A6E9DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2D26FC5D142AB956BD8E18FF4D972DB9 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D313F5077158AF0E442343BD531EF0 /* SoundPlayer.swift */; };
+		3D76AF2A5A5B47FF23F71CEDC51B27E1 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADDB0B288C147649BA98AB11A699FF /* SpringAnimation.swift */; };
+		40210D88195149F636A58500C14FD62F /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9D5D9E76BD4DA94AE00C3622A484C /* TransitionZoom.swift */; };
+		43711ADF463AAD78866B57306849325B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47EFC4A467218301E219B6542215CFB /* Images.xcassets */; };
+		44B968BF29B9F5F08F1AA2B41E9CB201 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA407F30063CF7A17B007BABEA8469F /* LoadingView.swift */; };
+		503B385F49556A941174BD8805869340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5408E35012783FD069F73D8975D5B349 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4813B237E266265CD50621D2B575D0B4 /* DesignableButton.swift */; };
+		5DB50FB171AE0CE1DE6734CCC371649A /* Pods-TabataTimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE633D87611CBF54082854B7DCDDC321 /* Pods-TabataTimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DFD07BE54586DF0B564841559623371 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85344982F7E5FF25958D304322611D0 /* DesignableTextField.swift */; };
+		5EF955E47A9DD4921E71988EBB9A6B43 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D791F0A365849466C60580BBE6F65E /* KeyboardLayoutConstraint.swift */; };
+		6447B5362DD395075EB2433CEE8C21D4 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8093D86498BC98F7CB21858C5094 /* MBCircularProgressBarView.m */; };
+		66208A48C1FF6985B2C7F044EA60E9B9 /* Pods-TabataTimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AFDFF74CD7E829B8D57CE1B80D1696 /* Pods-TabataTimerUITests-dummy.m */; };
+		6D6D940453432F48FCB89409AE6C7236 /* Pods-TabataTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94157E5D722B070615BEC9380ED89486 /* Pods-TabataTimer-dummy.m */; };
+		6DBED60F5F23A90D0B851F1973C06A94 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789401E8FB275F2580295DD4B53DBC30 /* SpringView.swift */; };
+		73806894DDCEBDAFA302EF2B56F51B62 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394E99D6DAA1099213FC2F095B24FF6 /* Spring.swift */; };
+		792DFA3B8F001AC3724A8018D9D37E5A /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB26D44FD674BF8B6BA1C0C9AC65066 /* DesignableImageView.swift */; };
+		7A06F66FEFC1FE7F75100E8AEFA2861F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7A2D946E352B282E4E9E10B45DBDD2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7FFE18464B969D304B611E13C773C72F /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3CC0B339EC024C88EC900738A5AD4 /* SpringTextView.swift */; };
+		8546F815857BF9C93440151A864EB626 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF73CBD96DB0DCDB7D4AE24C0B9C790D /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C96CE9BF21B8D10756F22C071EFBC5 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 037861AE8848EA081CE4CF5B3EE1E3DC /* MBCircularProgressBar-dummy.m */; };
+		8B465D54C800F29955B1EAA69CEF1CAD /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1092729EBDAF2E8DA7B1FE8DF91087ED /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9342840A0A9222CF8C3FCA3A743A82D1 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FD308742C5C5FDB655B46A9C75FF62 /* AsyncButton.swift */; };
+		9B6B7FB7AE4FCC4DCE6EB64F21918488 /* Pods-TabataTimerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A2161C59D23CC0690542C60F6A9A14 /* Pods-TabataTimerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C602C7BEF5548774EE4648554C9C986 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A405ECF322FBAEA40C92D1F5619CDA2F /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E112815CBE18CBB987F07C44018BA7B /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563E26DF071A063C960CE5DE2BB97A5 /* SpringTextField.swift */; };
+		A76E9C6510EC3CBA92D72C206673FF46 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 178E63C093180995A504CD5B6602DBA1 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFAE76CBC8EC53798D6BC2D2215798F /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF99A443E7A817A2D8C50440B4C266 /* Misc.swift */; };
+		AF5A33CAE747988723CB39520111DC1D /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C7C10B1425F85CD938F70F96F2C428 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C02D755C4C8B08FC2F8C231EDE052EF9 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA09F23C282CEFABC580FE1B3D9DF40 /* DesignableView.swift */; };
+		CDCC854FE87392F538BFA1436108A8F0 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9143FCE57094D2C88D063C9F6740D7 /* DesignableTextView.swift */; };
+		D19F919714E801954014B3F002276F04 /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8502821B074E2D8202598D13CB98D8EF /* Spring-dummy.m */; };
+		D2A148158F67D80CACD74465F0052D97 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82924FE1159E972C5EC0A616242BF06 /* TransitionManager.swift */; };
+		D6A55A157D6034A94739E205313CF99F /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D95C2418E7DFD1EDCC271BC997AD2 /* DesignableTabBarController.swift */; };
+		D6B96A008416FE28D3E107E2B38D9FC9 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1515F4A1BA0F51C5B400267A9FFDB93 /* DesignableLabel.swift */; };
+		DC66BA3E83389F62EDE33994149E25DE /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFCDBB95F2AC3FC5D6F31C869DC6773 /* LoadingView.xib */; };
+		DE45FE7C023876951E421615D0C33181 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FC1D8705F63F1176AAA8F65EC7899 /* AsyncImageView.swift */; };
+		E8605D71860102E15898E133873E80BF /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077C3E3B7155C30C912E9312F84AFA8 /* SpringLabel.swift */; };
+		E912798811F25351DFFFCFEF1B153B2A /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B796FB2A3DC608B800C44B43342236 /* MBCircularProgressBarLayer.m */; };
+		EB70BEA373CD78800BE63150747CE860 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBA734E62DA006183DA65874D2B3303 /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDA0138BE60021F13000558525F0A77E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EE23A17DEF2AA8A5B3D36E2A5E327DD0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE513CB530DBEB5FEF7E5B835C8C29E /* ImageLoader.swift */; };
+		F1C786D9D475BC04874EF84397F9E493 /* Pods-TabataTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EA7D06FC2E392A1B3BAAEDD8BB2074 /* Pods-TabataTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62AE9881F606F417FB9603D7D939118 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778A5873591FE923F1FBBCB73A42F23A /* UnwindSegue.swift */; };
+		F88D157974522F8674E5DFA82F8B0A2A /* MBCircularProgressBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 034596F7292602E3B7C90DA5945848B1 /* MBCircularProgressBar.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC1382042C7273F1DA750E30FA88BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92BB131FA876445E027D20AE23EA7B5F;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		BE85C351D00DC95CB529F0984DBA34F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBB85E28240DDA4FD3E0755B225EF41;
+			remoteInfo = Spring;
+		};
+		CDE2422F7E0818BFA71C569A6DACD346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860A9179BCFD9F1C616D8653DB2B4F91;
+			remoteInfo = MBCircularProgressBar;
+		};
+		EBC59F00882F35808CD4B15930E9008E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC4B2785BB68892651401B8A26A15AD;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B9D5D9E76BD4DA94AE00C3622A484C /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		034596F7292602E3B7C90DA5945848B1 /* MBCircularProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBCircularProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		037861AE8848EA081CE4CF5B3EE1E3DC /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		05FD308742C5C5FDB655B46A9C75FF62 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		0EB26D44FD674BF8B6BA1C0C9AC65066 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		1092729EBDAF2E8DA7B1FE8DF91087ED /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		109FC1D8705F63F1176AAA8F65EC7899 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		125A3474EC0D690EA3B16B91B94ACAD8 /* Pods-TabataTimerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabataTimerTests-dummy.m"; sourceTree = "<group>"; };
+		126EBEE20C4EE155331D930121AFC75E /* GGLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLCore.framework; path = Frameworks/GGLCore.framework; sourceTree = "<group>"; };
+		13D576323C264CB568AFB419A7C124A2 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		178E63C093180995A504CD5B6602DBA1 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		179D698A75CC77E9BA90F59587FC1DBE /* GGLAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLAnalytics.framework; path = Frameworks/GGLAnalytics.framework; sourceTree = "<group>"; };
+		17EEBE38E6E33704FF3362585EC73138 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18728431F8D1A3AB45CE56E257EC25B7 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/Core.h; sourceTree = "<group>"; };
+		1C0C001D628DA31D82A2F97AEB4A4683 /* Pods_TabataTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabataTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE513CB530DBEB5FEF7E5B835C8C29E /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		2272379D5A9B10FC1A300E1AA5511F29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2950B70CD0F1A3D7EA4D0FF8D356905F /* Pods-TabataTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabataTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D59CC1834018392C5F55AD7C45C8376 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Sources/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		2EFECC1EEAF122198DFD578C2EAE9EA1 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2F4ED0B9942EC40B0102E7AEADCED5A1 /* Pods-TabataTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabataTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F7F9234AF2A263619387C68D7D211E4 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Sources/GAILogger.h; sourceTree = "<group>"; };
+		3092B2DBF3C22BAEDD8313C992958C29 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		31B80C8C9F099163F77D91B1505D743C /* Pods-TabataTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabataTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		31D24DB36D845983FDCB9BEE98F777A5 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Sources/GAITracker.h; sourceTree = "<group>"; };
+		33740EADD3A64070B20F3E1EA5D90FD8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		3451A3A5A51D88FAC91F5040F58C6B6D /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		35EA7D06FC2E392A1B3BAAEDD8BB2074 /* Pods-TabataTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabataTimer-umbrella.h"; sourceTree = "<group>"; };
+		36C0BD0BAFD1B318623699BC2A1B39C8 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		36C92CFEBB9512E57B93AECAB5145AD0 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		38993ABCD7D88D80ACDADA9A98D47AF2 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		3A8773BFFD696EF306D7316ED105A5E2 /* Pods-TabataTimerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabataTimerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AA09F23C282CEFABC580FE1B3D9DF40 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		3BF11ECDA95D5EDDCAC68B194351B8E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0E450BE3C9FD2F563C684EE117109C /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Sources/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		3CE8415A0234A0AB86E731549658B47B /* Pods-TabataTimerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabataTimerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D5B39E70073837F7FB371467BB1B550 /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		3E172F4D5BF33489CF36445CD6768932 /* Pods-TabataTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabataTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FC5A101DBC227C9940708179D189B7F /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		4813B237E266265CD50621D2B575D0B4 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		4B14D84D3F6D4F9261F324D2CDD39859 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Sources/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		4BA407F30063CF7A17B007BABEA8469F /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		4CE536E0C6411B2208653FDD6225D111 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Sources/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		55290B19AB03CBDF3E26EBA67B7C7755 /* Pods-TabataTimerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabataTimerUITests-resources.sh"; sourceTree = "<group>"; };
+		57F3EACEE12937AB68E9E78A273E5879 /* Pods-TabataTimer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabataTimer-frameworks.sh"; sourceTree = "<group>"; };
+		5DEFCAB9E36D8B7F507E9B1A38D3A869 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Sources/GAITrackedViewController.h; sourceTree = "<group>"; };
+		5E6794F7E13FF76D571CA33AC09865EB /* Pods-TabataTimer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabataTimer-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E82B528AD361B2A333E2BC49FFEDAC8 /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
+		60ADDB0B288C147649BA98AB11A699FF /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		642F4D1E7DAE81C9F9070B6DDAF66752 /* Pods-TabataTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabataTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66B796FB2A3DC608B800C44B43342236 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		689CE059B69EA42D840886F9106444B9 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		68FCCD8DB7F0E91965541A689798D205 /* Pods-TabataTimerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabataTimerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B123493226F869235B231CC3106E603 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C336325D847D1D5030D309FC9657FE3 /* Pods-TabataTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabataTimer.release.xcconfig"; sourceTree = "<group>"; };
+		6D842B042088D55FEB262DEDCB0160FC /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Headers/Analytics.h; sourceTree = "<group>"; };
+		6E4EDE5888208E8AD1BBA172825C3C60 /* Pods-TabataTimer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabataTimer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F2CDE8A62B5373FFF8F65033725333A /* Pods-TabataTimerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabataTimerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7077C3E3B7155C30C912E9312F84AFA8 /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		728CA5D929294CCF2F3FF0BE97C85A05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740469A0B8F43FDA488465DEE9C8AC6C /* ResourceBundle-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		778A5873591FE923F1FBBCB73A42F23A /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		789401E8FB275F2580295DD4B53DBC30 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		84AFDFF74CD7E829B8D57CE1B80D1696 /* Pods-TabataTimerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabataTimerUITests-dummy.m"; sourceTree = "<group>"; };
+		8502821B074E2D8202598D13CB98D8EF /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		86D01A0B0DCF6284862B2C169B32395E /* MBCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.xcconfig; sourceTree = "<group>"; };
+		8985755A4A774DD03B81A1A42F3B7410 /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		8C112BD8E2A84F0C340329C8D35375EB /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		935E8093D86498BC98F7CB21858C5094 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94157E5D722B070615BEC9380ED89486 /* Pods-TabataTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabataTimer-dummy.m"; sourceTree = "<group>"; };
+		94971EC75431CE2C71BDD5BAB54A5657 /* Pods_TabataTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabataTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C8F69F6E19F749844479BEFF33ECA2 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		9AE19BB4BE18D0B9E727A131D5ACFB6C /* Pods_TabataTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabataTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9143FCE57094D2C88D063C9F6740D7 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		A09C3AFDF92FCB42A70E215E42F01FD6 /* Pods-TabataTimer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabataTimer-resources.sh"; sourceTree = "<group>"; };
+		A312F7842F88BB4457928FBF62E2F238 /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
+		A405ECF322FBAEA40C92D1F5619CDA2F /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		A46C156D5538234EBE375C4FBDC80F34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D3CC0B339EC024C88EC900738A5AD4 /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		A57059CCF9815958D37E81312391930F /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Sources/GAIFields.h; sourceTree = "<group>"; };
+		A7D791F0A365849466C60580BBE6F65E /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		AE633D87611CBF54082854B7DCDDC321 /* Pods-TabataTimerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabataTimerUITests-umbrella.h"; sourceTree = "<group>"; };
+		AEEA9EC90927EF0131739D5A272C35A8 /* Pods-TabataTimerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabataTimerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF73CBD96DB0DCDB7D4AE24C0B9C790D /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		AF8A8AEE7163DC6A54CC782195FA86C5 /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		AFBA734E62DA006183DA65874D2B3303 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		B1515F4A1BA0F51C5B400267A9FFDB93 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		B1B19D1DE6B02E9CA9C97BF867485050 /* Pods-TabataTimerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabataTimerTests-frameworks.sh"; sourceTree = "<group>"; };
+		B8C5C770FDE36DB2E76480BB230A6666 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		BBBB112FAFB3485B663C8E3A1F5CE1F5 /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		C18BD12ECFCCFBC06D253C711C6655C4 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		C2C7C10B1425F85CD938F70F96F2C428 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		C6B626A6860280782E60127340CFD852 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A2161C59D23CC0690542C60F6A9A14 /* Pods-TabataTimerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabataTimerTests-umbrella.h"; sourceTree = "<group>"; };
+		C7DB427A2D8E556803D6B1B3477C5A30 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Sources/GAI.h; sourceTree = "<group>"; };
+		C8125CA3CF124952FFB002CB5BBBA3E7 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		C8BF99A443E7A817A2D8C50440B4C266 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		CA5B589EB3023E9D82CE1C79796C4909 /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		CDDFE9C9B7E6F4364A3D391FEC1A4233 /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2FFAAD6C4911F6619CD6C77D74FBCEB /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Sources/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		D394E99D6DAA1099213FC2F095B24FF6 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		D56B5A74959626353FF60F6BBD989AAC /* Pods-TabataTimerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TabataTimerUITests.modulemap"; sourceTree = "<group>"; };
+		D5B18F7E20034FB3D87E89A721A58E88 /* Pods-TabataTimerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabataTimerTests-resources.sh"; sourceTree = "<group>"; };
+		D786DCD7274ECFBC3247C75519962060 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFCDBB95F2AC3FC5D6F31C869DC6773 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		DF6708BA909D385D0DE4622D92187629 /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47EFC4A467218301E219B6542215CFB /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		E563E26DF071A063C960CE5DE2BB97A5 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		E6E9B5D28DC4F7EB2DD148D31D0CCC53 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		E85344982F7E5FF25958D304322611D0 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		EF0DABD337F0AD1FBAB28C5E3B6937EA /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		EF9D6E2368E7A013C58B956C21759F6C /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		F054E80D5367BB239E97BACF792E6242 /* Pods-TabataTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TabataTimer.modulemap"; sourceTree = "<group>"; };
+		F74D95C2418E7DFD1EDCC271BC997AD2 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		F82924FE1159E972C5EC0A616242BF06 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		F8D313F5077158AF0E442343BD531EF0 /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		FCB733D099BF75BA3628AFEFA50C7C36 /* Pods-TabataTimerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TabataTimerTests.modulemap"; sourceTree = "<group>"; };
+		FD7112AB2520E3BE952D359567B91CA7 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		FDE3D35CA0A0527D13D618F2A3975D93 /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Spring.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790E5FC279BA7C0AEFDAA7969F7BE525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0655C3E7FCE02C35F819251044317D8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F38E7E8427EB97D15E0870D471F6DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80FA89DC059527AA474C9EE67CA5E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2D946E352B282E4E9E10B45DBDD2AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF97854F8D59675CB8B55FFE0D03ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503B385F49556A941174BD8805869340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8AE384E5A1035841194ED221BBB836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA0138BE60021F13000558525F0A77E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A440690639320C17AD6DF1397CCB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB463C750E7530FDF5E47E3B0A6E9DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F969891DAC5B91A0E7F3343DAACB6322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A06F66FEFC1FE7F75100E8AEFA2861F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0142F735B2361CE3F1DF3C9F05399C6A /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6D842B042088D55FEB262DEDCB0160FC /* Analytics.h */,
+				AB3D3C62D0E5826D69A3C31DA688F56B /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		0E879446FF7AF5D110025D3E42F8FB50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38993ABCD7D88D80ACDADA9A98D47AF2 /* GoogleToolboxForMac.modulemap */,
+				99C8F69F6E19F749844479BEFF33ECA2 /* GoogleToolboxForMac.xcconfig */,
+				3451A3A5A51D88FAC91F5040F58C6B6D /* GoogleToolboxForMac-dummy.m */,
+				E6E9B5D28DC4F7EB2DD148D31D0CCC53 /* GoogleToolboxForMac-prefix.pch */,
+				A405ECF322FBAEA40C92D1F5619CDA2F /* GoogleToolboxForMac-umbrella.h */,
+				2272379D5A9B10FC1A300E1AA5511F29 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		107EFDE9E0BAC875A9B2024FE05C4248 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				178E63C093180995A504CD5B6602DBA1 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		10AA01CA7E77524878ACFF85E8A13F7F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				EB0CFCD9B5F0B2E55C396E1E97D16169 /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		11510CABD0A60B32DA7C8EB4854789C3 /* Pods-TabataTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17EEBE38E6E33704FF3362585EC73138 /* Info.plist */,
+				D56B5A74959626353FF60F6BBD989AAC /* Pods-TabataTimerUITests.modulemap */,
+				68FCCD8DB7F0E91965541A689798D205 /* Pods-TabataTimerUITests-acknowledgements.markdown */,
+				AEEA9EC90927EF0131739D5A272C35A8 /* Pods-TabataTimerUITests-acknowledgements.plist */,
+				84AFDFF74CD7E829B8D57CE1B80D1696 /* Pods-TabataTimerUITests-dummy.m */,
+				6F2CDE8A62B5373FFF8F65033725333A /* Pods-TabataTimerUITests-frameworks.sh */,
+				55290B19AB03CBDF3E26EBA67B7C7755 /* Pods-TabataTimerUITests-resources.sh */,
+				AE633D87611CBF54082854B7DCDDC321 /* Pods-TabataTimerUITests-umbrella.h */,
+				3E172F4D5BF33489CF36445CD6768932 /* Pods-TabataTimerUITests.debug.xcconfig */,
+				2950B70CD0F1A3D7EA4D0FF8D356905F /* Pods-TabataTimerUITests.release.xcconfig */,
+			);
+			name = "Pods-TabataTimerUITests";
+			path = "Target Support Files/Pods-TabataTimerUITests";
+			sourceTree = "<group>";
+		};
+		2C023C3813B2058E3734F726DA13FA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C92CFEBB9512E57B93AECAB5145AD0 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36A176BB530B73B071FA2510B4714E8D /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				C7DB427A2D8E556803D6B1B3477C5A30 /* GAI.h */,
+				D2FFAAD6C4911F6619CD6C77D74FBCEB /* GAIDictionaryBuilder.h */,
+				4CE536E0C6411B2208653FDD6225D111 /* GAIEcommerceFields.h */,
+				3C0E450BE3C9FD2F563C684EE117109C /* GAIEcommerceProduct.h */,
+				4B14D84D3F6D4F9261F324D2CDD39859 /* GAIEcommerceProductAction.h */,
+				2D59CC1834018392C5F55AD7C45C8376 /* GAIEcommercePromotion.h */,
+				A57059CCF9815958D37E81312391930F /* GAIFields.h */,
+				2F7F9234AF2A263619387C68D7D211E4 /* GAILogger.h */,
+				5DEFCAB9E36D8B7F507E9B1A38D3A869 /* GAITrackedViewController.h */,
+				31D24DB36D845983FDCB9BEE98F777A5 /* GAITracker.h */,
+				40D886FBC235E82AABDDFCE01849E387 /* Frameworks */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		39730782C006CA772E12191401E76C7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A46C156D5538234EBE375C4FBDC80F34 /* Info.plist */,
+				FDE3D35CA0A0527D13D618F2A3975D93 /* Spring.modulemap */,
+				BBBB112FAFB3485B663C8E3A1F5CE1F5 /* Spring.xcconfig */,
+				8502821B074E2D8202598D13CB98D8EF /* Spring-dummy.m */,
+				8985755A4A774DD03B81A1A42F3B7410 /* Spring-prefix.pch */,
+				CA5B589EB3023E9D82CE1C79796C4909 /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		40D886FBC235E82AABDDFCE01849E387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D576323C264CB568AFB419A7C124A2 /* libGoogleAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4900BBA790429F23FA5C2136DC24F4B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689CE059B69EA42D840886F9106444B9 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5096F356CCA99760387BB8964412B632 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				2C023C3813B2058E3734F726DA13FA26 /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		5B1B1630A73A4663A3CAAC7D81EB05E6 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				1092729EBDAF2E8DA7B1FE8DF91087ED /* GTMNSData+zlib.h */,
+				C2C7C10B1425F85CD938F70F96F2C428 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		5C1F1AEB4DE025DF6241C918B546D74C /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5A101DBC227C9940708179D189B7F /* FIRInstanceID.h */,
+				F42384413B640BBB9AA851596A46B36A /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		70CDFF48FB1919E3A8E7BFA47D52A2AC /* Pods-TabataTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3BF11ECDA95D5EDDCAC68B194351B8E9 /* Info.plist */,
+				F054E80D5367BB239E97BACF792E6242 /* Pods-TabataTimer.modulemap */,
+				6E4EDE5888208E8AD1BBA172825C3C60 /* Pods-TabataTimer-acknowledgements.markdown */,
+				5E6794F7E13FF76D571CA33AC09865EB /* Pods-TabataTimer-acknowledgements.plist */,
+				94157E5D722B070615BEC9380ED89486 /* Pods-TabataTimer-dummy.m */,
+				57F3EACEE12937AB68E9E78A273E5879 /* Pods-TabataTimer-frameworks.sh */,
+				A09C3AFDF92FCB42A70E215E42F01FD6 /* Pods-TabataTimer-resources.sh */,
+				35EA7D06FC2E392A1B3BAAEDD8BB2074 /* Pods-TabataTimer-umbrella.h */,
+				31B80C8C9F099163F77D91B1505D743C /* Pods-TabataTimer.debug.xcconfig */,
+				6C336325D847D1D5030D309FC9657FE3 /* Pods-TabataTimer.release.xcconfig */,
+			);
+			name = "Pods-TabataTimer";
+			path = "Target Support Files/Pods-TabataTimer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DCFF11559A2FE13B5B80E03793B28F7F /* Pods */,
+				D7221E4AF858FCA65CBFD5B2F1E47434 /* Products */,
+				AE31C855CA4D2EFD3E034B1EFCF52A4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84ADF1B84FF7D2B5AB617F529788457C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126EBEE20C4EE155331D930121AFC75E /* GGLCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85643D583956A7849A9E18385E4BAF48 /* Pods-TabataTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D786DCD7274ECFBC3247C75519962060 /* Info.plist */,
+				FCB733D099BF75BA3628AFEFA50C7C36 /* Pods-TabataTimerTests.modulemap */,
+				3CE8415A0234A0AB86E731549658B47B /* Pods-TabataTimerTests-acknowledgements.markdown */,
+				3A8773BFFD696EF306D7316ED105A5E2 /* Pods-TabataTimerTests-acknowledgements.plist */,
+				125A3474EC0D690EA3B16B91B94ACAD8 /* Pods-TabataTimerTests-dummy.m */,
+				B1B19D1DE6B02E9CA9C97BF867485050 /* Pods-TabataTimerTests-frameworks.sh */,
+				D5B18F7E20034FB3D87E89A721A58E88 /* Pods-TabataTimerTests-resources.sh */,
+				C7A2161C59D23CC0690542C60F6A9A14 /* Pods-TabataTimerTests-umbrella.h */,
+				642F4D1E7DAE81C9F9070B6DDAF66752 /* Pods-TabataTimerTests.debug.xcconfig */,
+				2F4ED0B9942EC40B0102E7AEADCED5A1 /* Pods-TabataTimerTests.release.xcconfig */,
+			);
+			name = "Pods-TabataTimerTests";
+			path = "Target Support Files/Pods-TabataTimerTests";
+			sourceTree = "<group>";
+		};
+		85E41EA1D387730DB0FCB555BF331121 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				05FD308742C5C5FDB655B46A9C75FF62 /* AsyncButton.swift */,
+				109FC1D8705F63F1176AAA8F65EC7899 /* AsyncImageView.swift */,
+				B8C5C770FDE36DB2E76480BB230A6666 /* AutoTextView.swift */,
+				36C0BD0BAFD1B318623699BC2A1B39C8 /* BlurView.swift */,
+				4813B237E266265CD50621D2B575D0B4 /* DesignableButton.swift */,
+				0EB26D44FD674BF8B6BA1C0C9AC65066 /* DesignableImageView.swift */,
+				B1515F4A1BA0F51C5B400267A9FFDB93 /* DesignableLabel.swift */,
+				F74D95C2418E7DFD1EDCC271BC997AD2 /* DesignableTabBarController.swift */,
+				E85344982F7E5FF25958D304322611D0 /* DesignableTextField.swift */,
+				9F9143FCE57094D2C88D063C9F6740D7 /* DesignableTextView.swift */,
+				3AA09F23C282CEFABC580FE1B3D9DF40 /* DesignableView.swift */,
+				1DE513CB530DBEB5FEF7E5B835C8C29E /* ImageLoader.swift */,
+				A7D791F0A365849466C60580BBE6F65E /* KeyboardLayoutConstraint.swift */,
+				4BA407F30063CF7A17B007BABEA8469F /* LoadingView.swift */,
+				C8BF99A443E7A817A2D8C50440B4C266 /* Misc.swift */,
+				F8D313F5077158AF0E442343BD531EF0 /* SoundPlayer.swift */,
+				D394E99D6DAA1099213FC2F095B24FF6 /* Spring.swift */,
+				60ADDB0B288C147649BA98AB11A699FF /* SpringAnimation.swift */,
+				C8125CA3CF124952FFB002CB5BBBA3E7 /* SpringButton.swift */,
+				3092B2DBF3C22BAEDD8313C992958C29 /* SpringImageView.swift */,
+				7077C3E3B7155C30C912E9312F84AFA8 /* SpringLabel.swift */,
+				E563E26DF071A063C960CE5DE2BB97A5 /* SpringTextField.swift */,
+				A4D3CC0B339EC024C88EC900738A5AD4 /* SpringTextView.swift */,
+				789401E8FB275F2580295DD4B53DBC30 /* SpringView.swift */,
+				F82924FE1159E972C5EC0A616242BF06 /* TransitionManager.swift */,
+				02B9D5D9E76BD4DA94AE00C3622A484C /* TransitionZoom.swift */,
+				778A5873591FE923F1FBBCB73A42F23A /* UnwindSegue.swift */,
+				FDBDCAD35C3211C02C5077C12463FD73 /* Resources */,
+				39730782C006CA772E12191401E76C7A /* Support Files */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		8DBC41FC1A449578CCD47A1993FF586D /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCC6EB288AE020CEA1FD1B3A40D60F /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		8FA4D3710447A3C42870E29106A0131E /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				8C112BD8E2A84F0C340329C8D35375EB /* MBCircularProgressBarLayer.h */,
+				66B796FB2A3DC608B800C44B43342236 /* MBCircularProgressBarLayer.m */,
+				AFBA734E62DA006183DA65874D2B3303 /* MBCircularProgressBarView.h */,
+				935E8093D86498BC98F7CB21858C5094 /* MBCircularProgressBarView.m */,
+				A0E61A8A14F1E88360844133273B1A8E /* Resources */,
+				964EFC809BC77DACCD05C691630406C3 /* Support Files */,
+			);
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		9204DB859AB4B2560BCF3EE248F50807 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33740EADD3A64070B20F3E1EA5D90FD8 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9462B1EE4DEA75BE1B9D5303BC22CB49 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				107EFDE9E0BAC875A9B2024FE05C4248 /* Defines */,
+				5B1B1630A73A4663A3CAAC7D81EB05E6 /* NSData+zlib */,
+				0E879446FF7AF5D110025D3E42F8FB50 /* Support Files */,
+			);
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		964EFC809BC77DACCD05C691630406C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				728CA5D929294CCF2F3FF0BE97C85A05 /* Info.plist */,
+				A312F7842F88BB4457928FBF62E2F238 /* MBCircularProgressBar.modulemap */,
+				86D01A0B0DCF6284862B2C169B32395E /* MBCircularProgressBar.xcconfig */,
+				037861AE8848EA081CE4CF5B3EE1E3DC /* MBCircularProgressBar-dummy.m */,
+				EF9D6E2368E7A013C58B956C21759F6C /* MBCircularProgressBar-prefix.pch */,
+				AF73CBD96DB0DCDB7D4AE24C0B9C790D /* MBCircularProgressBar-umbrella.h */,
+				740469A0B8F43FDA488465DEE9C8AC6C /* ResourceBundle-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+		A0E61A8A14F1E88360844133273B1A8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B39E70073837F7FB371467BB1B550 /* example.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA40FCF5592E735A5D83128E1F82A25C /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4900BBA790429F23FA5C2136DC24F4B3 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		AB3D3C62D0E5826D69A3C31DA688F56B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179D698A75CC77E9BA90F59587FC1DBE /* GGLAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE31C855CA4D2EFD3E034B1EFCF52A4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CDFF48FB1919E3A8E7BFA47D52A2AC /* Pods-TabataTimer */,
+				85643D583956A7849A9E18385E4BAF48 /* Pods-TabataTimerTests */,
+				11510CABD0A60B32DA7C8EB4854789C3 /* Pods-TabataTimerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE58F519A52D6A8BB9D7F4B383A1A0EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5E82B528AD361B2A333E2BC49FFEDAC8 /* Analytics-Module.h */,
+				18728431F8D1A3AB45CE56E257EC25B7 /* Core.h */,
+				CDDFE9C9B7E6F4364A3D391FEC1A4233 /* Core-Module.h */,
+				AF8A8AEE7163DC6A54CC782195FA86C5 /* SignIn-Module.h */,
+				84ADF1B84FF7D2B5AB617F529788457C /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7491224DADEFC077A683538356911C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0DABD337F0AD1FBAB28C5E3B6937EA /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDCC6EB288AE020CEA1FD1B3A40D60F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD7112AB2520E3BE952D359567B91CA7 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7221E4AF858FCA65CBFD5B2F1E47434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B626A6860280782E60127340CFD852 /* GoogleToolboxForMac.framework */,
+				034596F7292602E3B7C90DA5945848B1 /* MBCircularProgressBar.bundle */,
+				DF6708BA909D385D0DE4622D92187629 /* MBCircularProgressBar.framework */,
+				94971EC75431CE2C71BDD5BAB54A5657 /* Pods_TabataTimer.framework */,
+				9AE19BB4BE18D0B9E727A131D5ACFB6C /* Pods_TabataTimerTests.framework */,
+				1C0C001D628DA31D82A2F97AEB4A4683 /* Pods_TabataTimerUITests.framework */,
+				6B123493226F869235B231CC3106E603 /* Spring.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFF11559A2FE13B5B80E03793B28F7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10AA01CA7E77524878ACFF85E8A13F7F /* Firebase */,
+				E8C4B1CD159CAAAF45AF356B27D28B36 /* FirebaseAnalytics */,
+				5096F356CCA99760387BB8964412B632 /* FirebaseCore */,
+				5C1F1AEB4DE025DF6241C918B546D74C /* FirebaseInstanceID */,
+				FEA760A5B92BCA690FB8DC13B2CB2BC4 /* Google */,
+				FD37AB9FDE5984C5624E07EBACAC5669 /* Google-Mobile-Ads-SDK */,
+				36A176BB530B73B071FA2510B4714E8D /* GoogleAnalytics */,
+				8DBC41FC1A449578CCD47A1993FF586D /* GoogleInterchangeUtilities */,
+				AA40FCF5592E735A5D83128E1F82A25C /* GoogleSymbolUtilities */,
+				9462B1EE4DEA75BE1B9D5303BC22CB49 /* GoogleToolboxForMac */,
+				8FA4D3710447A3C42870E29106A0131E /* MBCircularProgressBar */,
+				85E41EA1D387730DB0FCB555BF331121 /* Spring */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8C4B1CD159CAAAF45AF356B27D28B36 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				9204DB859AB4B2560BCF3EE248F50807 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		EB0CFCD9B5F0B2E55C396E1E97D16169 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C18BD12ECFCCFBC06D253C711C6655C4 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F42384413B640BBB9AA851596A46B36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EFECC1EEAF122198DFD578C2EAE9EA1 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD37AB9FDE5984C5624E07EBACAC5669 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C7491224DADEFC077A683538356911C3 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		FDBDCAD35C3211C02C5077C12463FD73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E47EFC4A467218301E219B6542215CFB /* Images.xcassets */,
+				DAFCDBB95F2AC3FC5D6F31C869DC6773 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FEA760A5B92BCA690FB8DC13B2CB2BC4 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				0142F735B2361CE3F1DF3C9F05399C6A /* Analytics */,
+				AE58F519A52D6A8BB9D7F4B383A1A0EB /* Core */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0843D2712D37FF1BF7B8E2DB63DBE439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB50FB171AE0CE1DE6734CCC371649A /* Pods-TabataTimerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5CDE60059D277D913711560E78B2BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6B7FB7AE4FCC4DCE6EB64F21918488 /* Pods-TabataTimerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1AA7969587B52BB00D362CCCA1A0E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C786D9D475BC04874EF84397F9E493 /* Pods-TabataTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7DF7BA6D3248730861A2FB6E19B4BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C602C7BEF5548774EE4648554C9C986 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				A76E9C6510EC3CBA92D72C206673FF46 /* GTMDefines.h in Headers */,
+				8B465D54C800F29955B1EAA69CEF1CAD /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54135308ECC11FC6F1E6D352154907F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1075857F910A0D9F479A283575F3C1BC /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC15FA8882E81B15AA15A3554303B95C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8546F815857BF9C93440151A864EB626 /* MBCircularProgressBar-umbrella.h in Headers */,
+				2B95200755F4983D22E37C984284F956 /* MBCircularProgressBarLayer.h in Headers */,
+				EB70BEA373CD78800BE63150747CE860 /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		265EC92BA25556762BEFD961FD053926 /* Pods-TabataTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A4FB02C170EAD432D228D3D70481E9 /* Build configuration list for PBXNativeTarget "Pods-TabataTimerUITests" */;
+			buildPhases = (
+				4B5E6F36C0FD0756BFA1F430F203168D /* Sources */,
+				CAF97854F8D59675CB8B55FFE0D03ABB /* Frameworks */,
+				0843D2712D37FF1BF7B8E2DB63DBE439 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TabataTimerUITests";
+			productName = "Pods-TabataTimerUITests";
+			productReference = 1C0C001D628DA31D82A2F97AEB4A4683 /* Pods_TabataTimerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EBB85E28240DDA4FD3E0755B225EF41 /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FB79F2F4D3E58665C7D8DB30A2FD79 /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				B3842AE5FF4A436C7C8F32F0FE4B52B9 /* Sources */,
+				D3A440690639320C17AD6DF1397CCB98 /* Frameworks */,
+				875759F4766DBC3B2DFC15DF9C84DD6A /* Resources */,
+				B54135308ECC11FC6F1E6D352154907F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 6B123493226F869235B231CC3106E603 /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		860A9179BCFD9F1C616D8653DB2B4F91 /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9292B5CEC4480FF9860A000BCCC4EA9D /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				0CED5ECE51A4C2D646CC75735EF1CBF0 /* Sources */,
+				CF8AE384E5A1035841194ED221BBB836 /* Frameworks */,
+				479C1B74FA4C4674AC58A0CBDC217DC8 /* Resources */,
+				EC15FA8882E81B15AA15A3554303B95C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C55659061E9F3551A2E1576571AA74 /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = DF6708BA909D385D0DE4622D92187629 /* MBCircularProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FC4B2785BB68892651401B8A26A15AD /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC2C33DCA9AB372723E14560E873705 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				A733E3C23F3D8D660A96DF919F3EB865 /* Sources */,
+				7F38E7E8427EB97D15E0870D471F6DCE /* Frameworks */,
+				14D3D634BF2815FCBB0CD97F0A79023A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = "MBCircularProgressBar-MBCircularProgressBar";
+			productReference = 034596F7292602E3B7C90DA5945848B1 /* MBCircularProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		92BB131FA876445E027D20AE23EA7B5F /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA52F66354E9F71BC37B9128BC55EABF /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				1B13920EEE24EB507A2EF0EDCE9770C7 /* Sources */,
+				790E5FC279BA7C0AEFDAA7969F7BE525 /* Frameworks */,
+				9C7DF7BA6D3248730861A2FB6E19B4BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = C6B626A6860280782E60127340CFD852 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92CFEC9592E2587C8C29FE624D5ECD9F /* Pods-TabataTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289EB92834E4CC232908BA8BA302FD51 /* Build configuration list for PBXNativeTarget "Pods-TabataTimerTests" */;
+			buildPhases = (
+				C1F1278BB73E99EEC89AF884F5EA5CC1 /* Sources */,
+				F969891DAC5B91A0E7F3343DAACB6322 /* Frameworks */,
+				0D5CDE60059D277D913711560E78B2BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TabataTimerTests";
+			productName = "Pods-TabataTimerTests";
+			productReference = 9AE19BB4BE18D0B9E727A131D5ACFB6C /* Pods_TabataTimerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A59FD53DD7E2585BE572CDCA2315C9B0 /* Pods-TabataTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9566C51CF7AE2F892E1790C5BAD339 /* Build configuration list for PBXNativeTarget "Pods-TabataTimer" */;
+			buildPhases = (
+				4099A22ECDDA6D337F5322025BF00AEC /* Sources */,
+				C80FA89DC059527AA474C9EE67CA5E81 /* Frameworks */,
+				6C1AA7969587B52BB00D362CCCA1A0E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B416A40126E11C9B4E0A058430EAEDA /* PBXTargetDependency */,
+				7C21A2E0E2C050119D7358D9AA8BCBF9 /* PBXTargetDependency */,
+				EA0D5A1E65E3EE7FDE0FC410300ECE9F /* PBXTargetDependency */,
+			);
+			name = "Pods-TabataTimer";
+			productName = "Pods-TabataTimer";
+			productReference = 94971EC75431CE2C71BDD5BAB54A5657 /* Pods_TabataTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D7221E4AF858FCA65CBFD5B2F1E47434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92BB131FA876445E027D20AE23EA7B5F /* GoogleToolboxForMac */,
+				860A9179BCFD9F1C616D8653DB2B4F91 /* MBCircularProgressBar */,
+				8FC4B2785BB68892651401B8A26A15AD /* MBCircularProgressBar-MBCircularProgressBar */,
+				A59FD53DD7E2585BE572CDCA2315C9B0 /* Pods-TabataTimer */,
+				92CFEC9592E2587C8C29FE624D5ECD9F /* Pods-TabataTimerTests */,
+				265EC92BA25556762BEFD961FD053926 /* Pods-TabataTimerUITests */,
+				6EBB85E28240DDA4FD3E0755B225EF41 /* Spring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14D3D634BF2815FCBB0CD97F0A79023A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB298DAAA66B239E79A77582A242D61 /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479C1B74FA4C4674AC58A0CBDC217DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88D157974522F8674E5DFA82F8B0A2A /* MBCircularProgressBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875759F4766DBC3B2DFC15DF9C84DD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43711ADF463AAD78866B57306849325B /* Images.xcassets in Resources */,
+				DC66BA3E83389F62EDE33994149E25DE /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CED5ECE51A4C2D646CC75735EF1CBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C96CE9BF21B8D10756F22C071EFBC5 /* MBCircularProgressBar-dummy.m in Sources */,
+				E912798811F25351DFFFCFEF1B153B2A /* MBCircularProgressBarLayer.m in Sources */,
+				6447B5362DD395075EB2433CEE8C21D4 /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B13920EEE24EB507A2EF0EDCE9770C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2377E523395CB5EC94D91283344580A1 /* GoogleToolboxForMac-dummy.m in Sources */,
+				AF5A33CAE747988723CB39520111DC1D /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4099A22ECDDA6D337F5322025BF00AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6D940453432F48FCB89409AE6C7236 /* Pods-TabataTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5E6F36C0FD0756BFA1F430F203168D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66208A48C1FF6985B2C7F044EA60E9B9 /* Pods-TabataTimerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A733E3C23F3D8D660A96DF919F3EB865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3842AE5FF4A436C7C8F32F0FE4B52B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9342840A0A9222CF8C3FCA3A743A82D1 /* AsyncButton.swift in Sources */,
+				DE45FE7C023876951E421615D0C33181 /* AsyncImageView.swift in Sources */,
+				04BFBA3D20736EC2B1822B8EE35E9EB5 /* AutoTextView.swift in Sources */,
+				13C3463D8785C8EA53AD1798CB780D0C /* BlurView.swift in Sources */,
+				5408E35012783FD069F73D8975D5B349 /* DesignableButton.swift in Sources */,
+				792DFA3B8F001AC3724A8018D9D37E5A /* DesignableImageView.swift in Sources */,
+				D6B96A008416FE28D3E107E2B38D9FC9 /* DesignableLabel.swift in Sources */,
+				D6A55A157D6034A94739E205313CF99F /* DesignableTabBarController.swift in Sources */,
+				5DFD07BE54586DF0B564841559623371 /* DesignableTextField.swift in Sources */,
+				CDCC854FE87392F538BFA1436108A8F0 /* DesignableTextView.swift in Sources */,
+				C02D755C4C8B08FC2F8C231EDE052EF9 /* DesignableView.swift in Sources */,
+				EE23A17DEF2AA8A5B3D36E2A5E327DD0 /* ImageLoader.swift in Sources */,
+				5EF955E47A9DD4921E71988EBB9A6B43 /* KeyboardLayoutConstraint.swift in Sources */,
+				44B968BF29B9F5F08F1AA2B41E9CB201 /* LoadingView.swift in Sources */,
+				ABFAE76CBC8EC53798D6BC2D2215798F /* Misc.swift in Sources */,
+				2D26FC5D142AB956BD8E18FF4D972DB9 /* SoundPlayer.swift in Sources */,
+				D19F919714E801954014B3F002276F04 /* Spring-dummy.m in Sources */,
+				73806894DDCEBDAFA302EF2B56F51B62 /* Spring.swift in Sources */,
+				3D76AF2A5A5B47FF23F71CEDC51B27E1 /* SpringAnimation.swift in Sources */,
+				083A139A0FECB333157CF974100ED766 /* SpringButton.swift in Sources */,
+				0B206F48E9DBCC938A4F3F1D529292F6 /* SpringImageView.swift in Sources */,
+				E8605D71860102E15898E133873E80BF /* SpringLabel.swift in Sources */,
+				9E112815CBE18CBB987F07C44018BA7B /* SpringTextField.swift in Sources */,
+				7FFE18464B969D304B611E13C773C72F /* SpringTextView.swift in Sources */,
+				6DBED60F5F23A90D0B851F1973C06A94 /* SpringView.swift in Sources */,
+				D2A148158F67D80CACD74465F0052D97 /* TransitionManager.swift in Sources */,
+				40210D88195149F636A58500C14FD62F /* TransitionZoom.swift in Sources */,
+				F62AE9881F606F417FB9603D7D939118 /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1278BB73E99EEC89AF884F5EA5CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2FEF8FB857BE42AC2CA2C7A43700A /* Pods-TabataTimerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C21A2E0E2C050119D7358D9AA8BCBF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 860A9179BCFD9F1C616D8653DB2B4F91 /* MBCircularProgressBar */;
+			targetProxy = CDE2422F7E0818BFA71C569A6DACD346 /* PBXContainerItemProxy */;
+		};
+		8B416A40126E11C9B4E0A058430EAEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 92BB131FA876445E027D20AE23EA7B5F /* GoogleToolboxForMac */;
+			targetProxy = 1CC1382042C7273F1DA750E30FA88BA3 /* PBXContainerItemProxy */;
+		};
+		91C55659061E9F3551A2E1576571AA74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = 8FC4B2785BB68892651401B8A26A15AD /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = EBC59F00882F35808CD4B15930E9008E /* PBXContainerItemProxy */;
+		};
+		EA0D5A1E65E3EE7FDE0FC410300ECE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spring;
+			target = 6EBB85E28240DDA4FD3E0755B225EF41 /* Spring */;
+			targetProxy = BE85C351D00DC95CB529F0984DBA34F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0201A37F0DB2E34B10FDE29BDEC0201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBB112FAFB3485B663C8E3A1F5CE1F5 /* Spring.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1EE723F5C94A16D92AD455B08E5719CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D01A0B0DCF6284862B2C169B32395E /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A46059C49FBCE3C141F994257FF5FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642F4D1E7DAE81C9F9070B6DDAF66752 /* Pods-TabataTimerTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabataTimerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabataTimerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E6456AA897A72F33149E264B714FA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E172F4D5BF33489CF36445CD6768932 /* Pods-TabataTimerUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabataTimerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabataTimerUITests/Pods-TabataTimerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabataTimerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58873790907E82F0F39CBC8F1961BA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBB112FAFB3485B663C8E3A1F5CE1F5 /* Spring.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6589856376C4D3D4F587D1F6FCD00810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C8F69F6E19F749844479BEFF33ECA2 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DFA2790C5F16BDAF8123061320836EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D01A0B0DCF6284862B2C169B32395E /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2DCBE98035B661CE22AAC3BA4C30A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2950B70CD0F1A3D7EA4D0FF8D356905F /* Pods-TabataTimerUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabataTimerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabataTimerUITests/Pods-TabataTimerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabataTimerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B491F07944209D577C06071FD66C9DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D01A0B0DCF6284862B2C169B32395E /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B5D06AA16A7194F9E471D0691877FF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C336325D847D1D5030D309FC9657FE3 /* Pods-TabataTimer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabataTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabataTimer/Pods-TabataTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabataTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B991A22C1A6AE85FE9381FF1BD9165D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C8F69F6E19F749844479BEFF33ECA2 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2D5FC3403047E1374D12C82189A68B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4ED0B9942EC40B0102E7AEADCED5A1 /* Pods-TabataTimerTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabataTimerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabataTimerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4A63AEFAB344B487789D66AD4F9B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D01A0B0DCF6284862B2C169B32395E /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FC13B3AA26BABE1261BA942B1C7D8538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B80C8C9F099163F77D91B1505D743C /* Pods-TabataTimer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabataTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabataTimer/Pods-TabataTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabataTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289EB92834E4CC232908BA8BA302FD51 /* Build configuration list for PBXNativeTarget "Pods-TabataTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A46059C49FBCE3C141F994257FF5FAA /* Debug */,
+				D2D5FC3403047E1374D12C82189A68B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9566C51CF7AE2F892E1790C5BAD339 /* Build configuration list for PBXNativeTarget "Pods-TabataTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC13B3AA26BABE1261BA942B1C7D8538 /* Debug */,
+				B5D06AA16A7194F9E471D0691877FF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FB79F2F4D3E58665C7D8DB30A2FD79 /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201A37F0DB2E34B10FDE29BDEC0201B /* Debug */,
+				58873790907E82F0F39CBC8F1961BA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A4FB02C170EAD432D228D3D70481E9 /* Build configuration list for PBXNativeTarget "Pods-TabataTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6456AA897A72F33149E264B714FA35 /* Debug */,
+				B2DCBE98035B661CE22AAC3BA4C30A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9292B5CEC4480FF9860A000BCCC4EA9D /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFA2790C5F16BDAF8123061320836EB /* Debug */,
+				1EE723F5C94A16D92AD455B08E5719CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC2C33DCA9AB372723E14560E873705 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B491F07944209D577C06071FD66C9DBC /* Debug */,
+				EA4A63AEFAB344B487789D66AD4F9B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA52F66354E9F71BC37B9128BC55EABF /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B991A22C1A6AE85FE9381FF1BD9165D8 /* Debug */,
+				6589856376C4D3D4F587D1F6FCD00810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

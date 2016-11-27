@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ufonts.com_impact.ttf">
+            <string>Impact</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabataTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +22,159 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlY-Hz-31I" customClass="SpringButton" customModule="Spring">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="V9b-Hv-lvB"/>
+                                    <constraint firstAttribute="width" constant="60" id="tQj-jf-Rke"/>
+                                </constraints>
+                                <state key="normal" image="Stop">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonAction_stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMW-hj-eb3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyC-UO-LkX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="E6T-FP-u2b"/>
+                                    <constraint firstAttribute="height" constant="60" id="o8D-a0-ywt"/>
+                                </constraints>
+                                <state key="normal" image="Pause">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonAction_stoptmp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fJy-AR-rR8"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3oT-NM-7wn" userLabel="BaseTurnVIew">
+                                <frame key="frameInset" minX="16" minY="66" width="343" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m7b-gT-QXf" userLabel="RestAnim" customClass="SpringView" customModule="Spring">
+                                        <frame key="frameInset" minX="8" minY="8" width="220" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hoq-we-SDj" customClass="MBCircularProgressBarView">
+                                                <frame key="frameInset" width="220" height="220"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0iS-49-hIq" userLabel="PrepareAnim" customClass="SpringView" customModule="Spring">
+                                        <frame key="frameInset" minX="222" minY="8" width="220" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Zo-Rq-Cac" customClass="MBCircularProgressBarView">
+                                                <frame key="frameInset" width="220" height="220"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fmj-Jo-HsH" userLabel="WorkoutAnim" customClass="SpringView" customModule="Spring">
+                                        <frame key="frameInset" minX="115" minY="199" width="220" height="220"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="workout" translatesAutoresizingMaskIntoConstraints="NO" id="SgX-8b-Mem" customClass="MBCircularProgressBarView">
+                                                <frame key="frameInset" width="220" height="220"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TABATATIMER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pe-Kn-4Uq" customClass="SpringLabel" customModule="Spring">
+                                <frame key="frameInset" minX="16" minY="28" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="40"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mu-S0-KJ0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="GO7-41-cxi"/>
+                                    <constraint firstAttribute="width" constant="60" id="RUt-61-qOT"/>
+                                </constraints>
+                                <state key="normal" image="Play">
+                                    <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonAction_start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uj5-h3-ejW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1B-0x-JDT">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="bj8-WQ-Tr9"/>
+                                    <constraint firstAttribute="height" constant="30" id="rIG-Ke-HCG"/>
+                                </constraints>
+                                <state key="normal" image="Setting"/>
+                                <connections>
+                                    <action selector="SettingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="unr-wA-s9g"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DX2-au-03b" customClass="MBCircularProgressBarView">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="H0l-gx-H1n"/>
+                                    <constraint firstAttribute="width" constant="60" id="cTr-c7-1Yw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMY-ER-Oeo" customClass="MBCircularProgressBarView">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="eH7-wC-ltt"/>
+                                    <constraint firstAttribute="height" constant="60" id="edQ-l0-tZc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.094117647058823528" green="0.094117647058823528" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="o1B-0x-JDT" firstAttribute="leading" secondItem="6mu-S0-KJ0" secondAttribute="trailing" constant="70.5" id="5d2-n3-6T2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UlY-Hz-31I" secondAttribute="bottom" constant="65" id="6OC-0b-osT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LyC-UO-LkX" secondAttribute="bottom" constant="65" id="JYu-kT-chK"/>
+                            <constraint firstItem="OMY-ER-Oeo" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XSa-TY-rkZ"/>
+                            <constraint firstItem="UlY-Hz-31I" firstAttribute="top" secondItem="OMY-ER-Oeo" secondAttribute="bottom" constant="8" id="YEz-wa-bmf"/>
+                            <constraint firstItem="DX2-au-03b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bCc-tB-YTc"/>
+                            <constraint firstItem="6mu-S0-KJ0" firstAttribute="leading" secondItem="LyC-UO-LkX" secondAttribute="trailing" id="bkj-8z-qpF"/>
+                            <constraint firstItem="6mu-S0-KJ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eYQ-qa-lWv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="o1B-0x-JDT" secondAttribute="bottom" constant="80" id="gaR-s8-qgs"/>
+                            <constraint firstItem="UlY-Hz-31I" firstAttribute="leading" secondItem="6mu-S0-KJ0" secondAttribute="trailing" id="u63-JP-KTI"/>
+                            <constraint firstItem="LyC-UO-LkX" firstAttribute="top" secondItem="DX2-au-03b" secondAttribute="bottom" constant="8" id="yla-f2-GXb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6mu-S0-KJ0" secondAttribute="bottom" constant="65" id="zhM-xc-yMy"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BaseTurnView" destination="3oT-NM-7wn" id="vJ9-it-oLm"/>
+                        <outlet property="Button_start" destination="6mu-S0-KJ0" id="m6K-UM-YcH"/>
+                        <outlet property="Button_stop" destination="UlY-Hz-31I" id="UCG-Gd-2dk"/>
+                        <outlet property="Button_stoptmp" destination="LyC-UO-LkX" id="mGB-Dd-ZoH"/>
+                        <outlet property="CommentLabel" destination="8pe-Kn-4Uq" id="Q5F-xq-l1t"/>
+                        <outlet property="Graph_Set" destination="DX2-au-03b" id="dzf-ti-JdU"/>
+                        <outlet property="Graph_Total" destination="OMY-ER-Oeo" id="4d7-RT-i1S"/>
+                        <outlet property="Graph_prepare" destination="1Zo-Rq-Cac" id="yHG-KT-KyV"/>
+                        <outlet property="Graph_rest" destination="Hoq-we-SDj" id="fbh-g6-qjx"/>
+                        <outlet property="Graph_workout" destination="SgX-8b-Mem" id="Art-5Z-8VT"/>
+                        <outlet property="Panim" destination="0iS-49-hIq" id="JqG-mX-qEB"/>
+                        <outlet property="Ranim" destination="m7b-gT-QXf" id="baN-pR-W9L"/>
+                        <outlet property="SettingButton" destination="o1B-0x-JDT" id="beo-Fd-b0x"/>
+                        <outlet property="Wanim" destination="Fmj-Jo-HsH" id="moo-EV-GJ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Pause" width="94" height="97"/>
+        <image name="Play" width="95" height="97"/>
+        <image name="Setting" width="95" height="96"/>
+        <image name="Stop" width="94" height="97"/>
+    </resources>
 </document>
